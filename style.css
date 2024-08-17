@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav h2 {
+    margin-left: 120px;
+    color: rgb(79, 79, 189);
+}
+
+.nav a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 80px;
+}
+
+.nd-title {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 245, 249);
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.nd-title h3 {
+    padding: 2px;
+    margin: 0;
+    color:rgb(133, 147, 152);
+}
+
+.nd-tasks ul {
+    list-style: none;
+}
+
+.d-title {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 245, 249);
+    border-radius: 4px;
+    margin: 8px;
+}
+
+.d-title h3 {
+    padding: 2px;
+    margin: 0;
+    color:rgb(133, 147, 152);
+}
